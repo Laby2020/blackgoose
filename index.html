@@ -55,6 +55,8 @@ Monday through Thursday 11am to 9 pm,<br> Friday and Saturday,<br> 11am to midni
 
 </html>
 
+<a href="pizza_order list.html"><img src="images/order button.gif" alt="image" width="200" height="200"></a><br></p>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -71,13 +73,12 @@ Monday through Thursday 11am to 9 pm,<br> Friday and Saturday,<br> 11am to midni
   
   <body>
 
-    <a href="pizza_order list.html"><img src="images/order button.gif" alt="image" width="200" height="200"></a><br></p>
 
     <h1>Blackstone Bistro | Pizza-Instant-Demand</h1>
     
     <p>hello wonderful customer make your very own pizza here and we'll deliver it to you in under a minute which is fast!</p>
     
-    <forrm action="http://www.blackgoosebistro.com/pizza.php" method="post">
+    <form action="http://www.blackgoosebistro.com/pizza.php" method="post">
      
      <fieldset>
      
@@ -89,6 +90,7 @@ Monday through Thursday 11am to 9 pm,<br> Friday and Saturday,<br> 11am to midni
          <li><label for="form-email">Email:<input type="email" name="email" id="form-email"></label></li>
          <li>Delivery instructions:<br>
          <textarea name="instructions" row="4" cols="60" maxlength="400" id="form-story" placeholder="No more than 400 characters long"></textarea></li>
+       <
        </ul>
       </fieldset>
       
@@ -109,13 +111,13 @@ Monday through Thursday 11am to 9 pm,<br> Friday and Saturday,<br> 11am to midni
           <fieldset>
            <legend>Toppings<em>(Choose as many as you'd like)</em></legend>
             <ul>
-              <li><label>input type="checkbox" name="toppings" value="red sauce" checked> Red sauce</li>
-              <li><label>input type="checkbox" name="toppings" value="white sauce"> White sauce</label></li>
-              <li><label>input type="checkbox" name="toppings" value="mozzarella"> Mozzarella Cheese</label></li>
-              <li><label>input type="checkbox" name="toppings" value="pepperoni"> Pepperoni</label></li>
-              <li><label>input type="checkbox" name="toppings" value="mushrooms"> Mushrooms</label></li>
-              <li><label>input type="checkbox" name="toppings" Value="peppers"> Peppers</label></li>
-              <li><label>input type="checkbox" name="toppings" value="anchovies"> Anchovies</label></li>
+              <li><label>input type="checkbox" name="toppings[]" value="red sauce" "checked"> Red sauce</li>
+              <li><label>input type="checkbox" name="toppings[]" value="white sauce"> White sauce</li>
+              <li><label>input type="checkbox" name="toppings[]" value="mozzarella"> Mozzarella Cheese</li>
+              <li><label>input type="checkbox" name="toppings[]" value="pepperoni"> Pepperoni</li>
+              <li><label>input type="checkbox" name="toppings[]" value="mushrooms"> Mushrooms</li>
+              <li><label>input type="checkbox" name="toppings[]" Value="peppers"> Peppers</li>
+              <li><label>input type="checkbox" name="toppings[]" value="anchovies"> Anchovies</li>
              </ul>
              </fieldset>
              
